@@ -1,30 +1,45 @@
 {
-  "name": "andreasbigger2.0",
+  "name": "andreaslbigger",
+  "author": "Andreas Bigger",
+  "contributors": [
+    "Andreas Bigger"
+  ],
   "version": "1.0.0",
-  "scripts": {
-    "client": "cd app && npm start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd app && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-  },
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.2",
+    "@types/react-dom": "16.8.4",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.11",
+    "typescript": "3.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "concurrently": "^4.0.1"
-  },
-  "description": "Personal website for Andreas Bigger Mark 2.0",
-  "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abigger87/AndreasBigger2.0.git"
-  },
-  "author": "Andreas Bigger",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abigger87/AndreasBigger2.0/issues"
-  },
-  "homepage": "https://github.com/abigger87/AndreasBigger2.0#readme"
+    "@types/react": "^16.8.18",
+    "@types/react-scroll": "^1.5.4"
+  }
 }
