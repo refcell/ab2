@@ -1,0 +1,43 @@
+.education {
+    text-align: center;
+    padding-bottom: 5vh;
+    overflow: none;
+    display: table;
+    border-spacing: 10px 20px;
+    width: 100%;
+    img {
+        height: 100px;
+        width: 100px;
+        padding-top: 5vh;
+    }
+}
+
+.school {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: table-cell;
+    width: 33vw;
+}
+
+.headerWrapper {
+    height: 80px;
+    display: flex;
+    h2 {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .education {
+        display: auto;
+    }
+    .school {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .headerWrapper {
+        height: auto;
+    }
+}
