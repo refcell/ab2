@@ -9,6 +9,7 @@
 
 .title {
     color: white;
+    pointer-events: none;
 }
 
 .navbar {
@@ -30,6 +31,12 @@
 .centeredTitle {
     display: table-cell;
     vertical-align: middle;
+
+    img {
+        width: 200px;
+        height: 200px;
+        margin: 2vw;
+    }
 }
 
 .click-down-container {

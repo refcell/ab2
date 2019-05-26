@@ -1,15 +1,14 @@
 import * as React from 'react';
 import { Link } from 'react-scroll';
-import logo from '../assets/logos/ABWhite.png';
 import clickDown from '../assets/other/angle-down.svg';
-
+import Social from './Social';
 export interface HeaderProps {
-
+    logo: any
 }
 
-const Header: React.SFC<HeaderProps> = () => {
+const Header: React.SFC<HeaderProps> = ({ logo }) => {
     return (
-        <div className="frontpage">
+        <div className="frontpage" id="frontpage">
             <div className="navbar">
                 <a href="/">
                     <img src={logo} alt="logoNoBackground" />
@@ -17,8 +16,9 @@ const Header: React.SFC<HeaderProps> = () => {
             </div>
             <div className="HeaderBody">
                 <div className="centeredTitle">
+                    <img src={require("../assets/profile/profileRoundLarge.png")} alt="profile"></img>
+                    <Social />
                     <h1 className="title">Relentlessly Creating.</h1>
-                    <h1 className="title">More Below.</h1>
                 </div>
             </div>
             <div className="click-down-container">

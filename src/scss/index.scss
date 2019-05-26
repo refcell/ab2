@@ -1,5 +1,10 @@
-@import "Header.scss";
-@import "Intro.scss";
+@import "variables";
+@import "Header";
+@import "Intro";
+@import "Projects";
+@import "Footer";
+@import "Title";
+@import "Social";
 
 * {
   margin: 0;
@@ -8,6 +13,10 @@
   outline: 0;
   vertical-align: baseline;
   background: transparent;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none;   /* Firefox all */
+  -ms-user-select: none;  /* IE 10+ */
+   user-select: none;  /* Likely future */ 
 }
 
 html, body, #root {
