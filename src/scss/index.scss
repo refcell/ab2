@@ -7,6 +7,7 @@
 @import "Social";
 @import "Education";
 @import "Experience";
+@import "Certificates";
 
 * {
   margin: 0;
@@ -24,6 +25,7 @@
 html, body, #root {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {

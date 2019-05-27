@@ -9,6 +9,7 @@ import Title from './Title';
 import { TinyButton as ScrollUpButton } from 'react-scroll-up-button';
 import Education from './Education';
 import Experience from './Experience';
+import Certificates from './Certificates';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,8 @@ const App: React.FC = () => {
           <Projects />
           <Title title="Experience" color="#929E8C" />
           <Experience />
+          <Title title="Certificates" color="#93A086" />
+          <Certificates />
           <Title title="Education" color="#A0AD97" />
           <Education />
           <Footer color="#7F887C" />
