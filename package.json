@@ -4,6 +4,7 @@
   "contributors": [
     "Andreas Bigger"
   ],
+  "homepage": "https://andreasbigger.com",
   "version": "1.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@types/node": "12.0.2",
     "@types/react-dom": "16.8.4",
     "gh-pages": "^2.0.1",
+    "mime": "^2.4.3",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
