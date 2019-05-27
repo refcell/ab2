@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import { url } from 'inspector';
 
 const newNextIcon = <span aria-hidden="true">
     <img style={{ height: "10vw", width: "10vw", backgroundSize: "contain" }} src={require("../assets/other/next.png")} alt="next icon" />
