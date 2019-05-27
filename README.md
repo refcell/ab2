@@ -9,6 +9,10 @@ These are all the personal projects I have had a major role in over the course o
 
 These are the work and work-related experiences I have had so far.
 
+## Certificates
+
+This section contains a carousel of certificates I have earned.
+
 ## Education
 
 These are the major forms of education I have received.
@@ -17,14 +21,16 @@ These are the major forms of education I have received.
 
 ### Color scale
 
-* $backgroundcolor: Cold Grey #808A87
-* Green Hornet #97AF83
-* Kakhi #BCBC8F
+* Cold Grey #808A87
 * Green Goo #A0AD97
 * Seaweed #929E8C
+* Cactus 90 #93A086
 * Park Ranger #7F887C
 * Dark Sea Green #95AF95
-* Eton Blue #B3D7BC
+
+## Analytics
+
+Analytics are recorded through google analytics and cloudflare.
 
 ## Connect
 
