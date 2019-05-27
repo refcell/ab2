@@ -1,17 +1,21 @@
 # Andreas Bigger
 # andreasbigger.com
 
-## Work
+## Projects
 
-These are all the personal projects, jobs, and organizations I have had a major role in over the course of my life thus far.
+These are all the personal projects I have had a major role in over the course of my life thus far.
 
-## About
+## Experience
 
-Here I tell a little bit about myself and my accomplishments up to this point.
+These are the work and work-related experiences I have had so far.
+
+## Education
+
+These are the major forms of education I have received.
 
 ## Themes
 
-###Color scale
+### Color scale
 
 * $backgroundcolor: Cold Grey #808A87
 * Green Hornet #97AF83
@@ -29,12 +33,14 @@ Connect with me on various social media platforms:
 
 GitHub - @abigger87
 
+BitBucket - @abigger87
+
 Twitter - @abigger87
 
-Instagram - andreasbigger
+Instagram - andreaslbigger
 
-Instagram (photography) - aburbana
+Instagram (photography) - abcerte
 
 LinkedIn - andreasbigger
 
-Facebook - andreasbigger
+Facebook - abigger87

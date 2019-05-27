@@ -20,14 +20,14 @@
 }
 
 .headerWrapper {
-    height: 80px;
+    height: 100px;
     display: flex;
     h2 {
         margin: auto;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .education {
         display: auto;
     }

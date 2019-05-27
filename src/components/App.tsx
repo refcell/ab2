@@ -16,15 +16,15 @@ const App: React.FC = () => {
       <Header logo={require('../assets/logos/ABWhite.png')} />
       <Scroll.Element name="main">
         <main>
-          <ScrollUpButton EasingType='easeInQuad' AnimationDuration={800} style={{ backgroundColor: 'rgb(255, 255, 255, 0)', fill: "#ffffff" }} />
+          <ScrollUpButton EasingType='easeInOutSine' AnimationDuration={800} style={{ backgroundColor: 'rgb(255, 255, 255, 0)', fill: "#ffffff" }} />
           <Intro />
-          <Title title="Projects" color="#97AF83" />
+          <Title title="Projects" color="#808A87" />
           <Projects />
-          <Title title="Experience" color="#BCBC8F" />
+          <Title title="Experience" color="#929E8C" />
           <Experience />
-          <Title title="Education" color="#929E8C" />
+          <Title title="Education" color="#A0AD97" />
           <Education />
-          <Footer />
+          <Footer color="#7F887C" />
         </main>
       </Scroll.Element>
     </div>

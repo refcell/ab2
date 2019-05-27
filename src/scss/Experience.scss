@@ -27,7 +27,13 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+    .headerWrapper {
+        height: 115px;
+    }
+}
+
+@media screen and (max-width: 650px) {
     .experience {
         display: auto;
     }
