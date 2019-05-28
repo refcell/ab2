@@ -2,11 +2,11 @@ import * as React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
 const newNextIcon = <span aria-hidden="true">
-    <img style={{ height: "10vw", width: "10vw", backgroundSize: "contain" }} src={require("../assets/other/next.png")} alt="next icon" />
+    <img style={{ height: "6vw", width: "5vw", backgroundSize: "contain" }} src={require("../assets/other/next.png")} alt="next icon" />
 </span>;
 
 const newPrevIcon = <span aria-hidden="true">
-    <img style={{ height: "10vw", width: "10vw", backgroundSize: "contain" }} src={require("../assets/other/previous.png")} alt="next icon" />
+    <img style={{ height: "6vw", width: "5vw", backgroundSize: "contain" }} src={require("../assets/other/previous.png")} alt="next icon" />
 </span>;
 
 export interface CertificatesProps { }
