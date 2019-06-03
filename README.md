@@ -1,5 +1,5 @@
-# Andreas Bigger
-# andreasbigger.com
+# Andreas Bigger Outdated Personal Website
+# New and Improved - andreasbigger.com
 
 ## Projects
 
